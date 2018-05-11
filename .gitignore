@@ -7,6 +7,8 @@
 # BlueJ files
 *.ctxt
 
+
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -34,3 +36,11 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+/.idea/
+.idea/workspace.xml
+
+/multi-demo.iml
+
+/service-consumer/target/
+/eureka-server/target/
+/eureka-client/target/
