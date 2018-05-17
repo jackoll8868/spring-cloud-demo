@@ -1,10 +1,6 @@
 package com.tiger.cloud.gateway;
 
-import com.netflix.zuul.FilterLoader;
-import com.netflix.zuul.groovy.GroovyCompiler;
-import com.tiger.cloud.gateway.commons.support.RefreshZuulRouteService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

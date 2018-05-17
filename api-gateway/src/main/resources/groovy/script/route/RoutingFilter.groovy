@@ -8,6 +8,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 
 class RoutingFilter extends ZuulFilter{
     static final Logger log = LoggerFactory.getLogger(RoutingFilter.class);
+
     @Override
     String filterType() {
         return ROUTE_TYPE
@@ -20,7 +21,7 @@ class RoutingFilter extends ZuulFilter{
 
     @Override
     boolean shouldFilter() {
-        return true
+        return false
     }
 
     @Override

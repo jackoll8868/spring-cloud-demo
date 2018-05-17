@@ -27,7 +27,7 @@ public class GroovyRunner implements CommandLineRunner {
                     groovyPath + "pre",
                     groovyPath + "post",
                     groovyPath + "error",
-                    groovyPath + "routing"});
+                    groovyPath + "route"});
             logger.info("Groovy Runner started.The groovy script root path:{}",groovyPath);
         } catch (Exception e) {
             throw new RuntimeException(e);
